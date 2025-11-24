@@ -1,6 +1,7 @@
 import axios from "axios";
 
-export const API_URL = "http://localhost:8000";
+export const API_URL = "https://aqi-predictor-0bdu.onrender.com";
+
 
 export const predictAQI = async (data) => {
   const response = await axios.post(`${API_URL}/predict`, {
