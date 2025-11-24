@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: rgb(17, 20, 23);
+  min-height: 100vh;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
